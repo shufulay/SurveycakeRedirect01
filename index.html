@@ -23,45 +23,44 @@
             "https://www.surveycake.com/s/0znDL", //OH
             "https://www.surveycake.com/s/O6R02", //OW
             "https://www.surveycake.com/s/b49Lv", //OS
-            "https://www.surveycake.com/s/763Dv" //OA
         ];
 
-        let ans = getRandomInt(100);
+        let ans = getRandomInt(13);
 
-        if(ans < 8){ // NLI
+        if(ans === 0){ // NLI
             location.href = "https://www.surveycake.com/s/RmLWM";
         } 
-        else if(ans >= 8 && ans < 16){ // NLO
+        else if(ans === 1){ // NLO
             location.href = "https://www.surveycake.com/s/W0Xke";
         }
-        else if(ans >= 16 && ans < 24){ // NC
+        else if(ans === 2){ // NC
             location.href = "https://www.surveycake.com/s/96nV9";
         }
-        else if(ans >= 24 && ans < 32){ // NH
+        else if(ans === 3){ // NH
             location.href = "https://www.surveycake.com/s/A6W4e";
         }
-        else if(ans >= 32 && ans < 40){ // NW
+        else if(ans === 4){ // NW
             location.href = "https://www.surveycake.com/s/XrvyP";
         }
-        else if(ans >= 40 && ans < 48){ // NS
+        else if(ans === 5){ // NS
             location.href = "https://www.surveycake.com/s/zx3yG";
         }
-        else if(ans >= 48 && ans < 56){ // NA
+        else if(ans === 6){ // NA
             location.href = "https://www.surveycake.com/s/xK1zp";
         }
-        else if(ans >= 56 && ans < 64){ // OLI
+        else if(ans === 7){ // OLI
             location.href = "https://www.surveycake.com/s/N6Qny";
         }
-        else if(ans >= 64 && ans < 72){ // OLO
+        else if(ans === 8){ // OLO
             location.href = "https://www.surveycake.com/s/86yD1";
         }
-        else if(ans >= 72 && ans < 80){ // OC
+        else if(ans === 9){ // OC
             location.href = "https://www.surveycake.com/s/xK3Ne";
         }
-        else if(ans >= 80 && ans < 88){ // OH
+        else if(ans === 10){ // OH
             location.href = "https://www.surveycake.com/s/0znDL";
         }
-        else if(ans >= 88 && ans < 96){ // OW
+        else if(ans === 11){ // OW
             location.href = "https://www.surveycake.com/s/O6R02";
         }
         else { // OS
