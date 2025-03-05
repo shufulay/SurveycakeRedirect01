@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Redirect</title>
+</head>
+<body>
+    <script>
+        // declare the variable
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * max);
+        }
+        let targetUrlList = [
+            "https://www.surveycake.com/s/RmLWM", //NLI
+            "https://www.surveycake.com/s/W0Xke", //NLO
+            "https://www.surveycake.com/s/96nV9", //NC
+            "https://www.surveycake.com/s/A6W4e", //NH
+            "https://www.surveycake.com/s/XrvyP", //NW
+            "https://www.surveycake.com/s/zx3yG", //NS
+            "https://www.surveycake.com/s/xK1zp", //NA
+            "https://www.surveycake.com/s/N6Qny", //OLI
+            "https://www.surveycake.com/s/86yD1", //OLO
+            "https://www.surveycake.com/s/xK3Ne", //OC
+            "https://www.surveycake.com/s/0znDL", //OH
+            "https://www.surveycake.com/s/O6R02", //OW
+            "https://www.surveycake.com/s/b49Lv", //OS
+            "https://www.surveycake.com/s/763Dv" //OA
+        ];
+
+        let ans = getRandomInt(100);
+
+        if(ans < 8){ // NLI
+            location.href = "https://www.surveycake.com/s/RmLWM";
+        } 
+        else if(ans >= 8 && ans < 16){ // NLO
+            location.href = "https://www.surveycake.com/s/W0Xke";
+        }
+        else if(ans >= 16 && ans < 24){ // NC
+            location.href = "https://www.surveycake.com/s/96nV9";
+        }
+        else if(ans >= 24 && ans < 32){ // NH
+            location.href = "https://www.surveycake.com/s/A6W4e";
+        }
+        else if(ans >= 32 && ans < 40){ // NW
+            location.href = "https://www.surveycake.com/s/XrvyP";
+        }
+        else if(ans >= 40 && ans < 48){ // NS
+            location.href = "https://www.surveycake.com/s/zx3yG";
+        }
+        else if(ans >= 48 && ans < 56){ // NA
+            location.href = "https://www.surveycake.com/s/xK1zp";
+        }
+        else if(ans >= 56 && ans < 64){ // OLI
+            location.href = "https://www.surveycake.com/s/N6Qny";
+        }
+        else if(ans >= 64 && ans < 72){ // OLO
+            location.href = "https://www.surveycake.com/s/86yD1";
+        }
+        else if(ans >= 72 && ans < 80){ // OC
+            location.href = "https://www.surveycake.com/s/xK3Ne";
+        }
+        else if(ans >= 80 && ans < 88){ // OH
+            location.href = "https://www.surveycake.com/s/0znDL";
+        }
+        else if(ans >= 88 && ans < 96){ // OW
+            location.href = "https://www.surveycake.com/s/O6R02";
+        }
+        else { // OS
+            location.href = "https://www.surveycake.com/s/b49Lv";
+        }
+    </script>
+</body>
+</html>
