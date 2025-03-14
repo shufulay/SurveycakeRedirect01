@@ -11,79 +11,64 @@
 
         let targetUrlList = [
             "https://www.surveycake.com/s/RmLWM", //NLI
-            "https://www.surveycake.com/s/W0Xke", //NLO
-            "https://www.surveycake.com/s/96nV9", //NC
+            "https://www.surveycake.com/s/W0Xke", //NLO -3
+            "https://www.surveycake.com/s/96nV9", //NC -3
             "https://www.surveycake.com/s/A6W4e", //NH
-            "https://www.surveycake.com/s/XrvyP", //NW
-            "https://www.surveycake.com/s/zx3yG", //NS
-            "https://www.surveycake.com/s/xK1zp", //NA
-            "https://www.surveycake.com/s/N6Qny", //OLI
+            "https://www.surveycake.com/s/XrvyP", //NW -4
+            "https://www.surveycake.com/s/zx3yG", //NS -2
+            "https://www.surveycake.com/s/xK1zp", //NA -4
+            "https://www.surveycake.com/s/N6Qny", //OLI -7
             "https://www.surveycake.com/s/86yD1", //OLO
-            "https://www.surveycake.com/s/xK3Ne", //OC
-            "https://www.surveycake.com/s/0znDL", //OH
-            "https://www.surveycake.com/s/O6R02", //OW
-            "https://www.surveycake.com/s/b49Lv", //OS
+            "https://www.surveycake.com/s/xK3Ne", //OC -9
+            "https://www.surveycake.com/s/0znDL", //OH -3
+            "https://www.surveycake.com/s/O6R02", //OW -9
+            "https://www.surveycake.com/s/b49Lv", //OS -6
             "https://www.surveycake.com/s/763Dv" //OA
         ];
 
-        let ans = getRandomInt(19);
+        let ans = getRandomInt(14);
 
-        if(ans === 0){ // OLI
-            location.href = "https://www.surveycake.com/s/N6Qny";
+        if(ans === 0){ // NLO
+            location.href = "https://www.surveycake.com/s/W0Xke";
         } 
-        else if(ans === 1){ // OLI
-            location.href = "https://www.surveycake.com/s/N6Qny";
+        else if(ans === 1){ // NC
+            location.href = "https://www.surveycake.com/s/96nV9";
         }
-        else if(ans === 2){ // OLI
-            location.href = "https://www.surveycake.com/s/N6Qny";
-        }
-        else if(ans === 3){ // OC
-            location.href = "https://www.surveycake.com/s/xK3Ne";
-        }
-        else if(ans === 4){ // OC
-            location.href = "https://www.surveycake.com/s/xK3Ne";
-        }
-        else if(ans === 5){ // OC
-            location.href = "https://www.surveycake.com/s/xK3Ne";
-        }
-        else if(ans === 6){ // OW
-            location.href = "https://www.surveycake.com/s/O6R02";
-        }
-        else if(ans === 7){ // OW
-            location.href = "https://www.surveycake.com/s/O6R02";
-        }
-        else if(ans === 8){ // OW
-            location.href = "https://www.surveycake.com/s/O6R02";
-        }
-        else if(ans === 9){ // OS
-            location.href = "https://www.surveycake.com/s/b49Lv";
-        }
-        else if(ans === 10){ // OS
-            location.href = "https://www.surveycake.com/s/b49Lv";
-        }
-        else if(ans === 11){ // NW
+        else if(ans === 2){ // NW
             location.href = "https://www.surveycake.com/s/XrvyP";
         }
-        else if(ans === 12){ // NW
-            location.href = "https://www.surveycake.com/s/XrvyP";
-        }
-        else if(ans === 13){ // NA
-            location.href = "https://www.surveycake.com/s/xK1zp";
-        }
-        else if(ans === 14){ // NA
-            location.href = "https://www.surveycake.com/s/xK1zp";
-        }
-        else if(ans === 15){ // NLO
-            location.href = "https://www.surveycake.com/s/W0Xke";
-        }
-        else if(ans === 16){ // NLO
-            location.href = "https://www.surveycake.com/s/W0Xke";
-        }
-        else if(ans === 17){ // NS
+        else if(ans === 3){ // NS
             location.href = "https://www.surveycake.com/s/zx3yG";
         }
-        else { // NH
-            location.href = "https://www.surveycake.com/s/A6W4e";
+        else if(ans === 4){ // NA
+            location.href = "https://www.surveycake.com/s/xK1zp";
+        }
+        else if(ans === 5){ // OLI
+            location.href = "https://www.surveycake.com/s/N6Qny";
+        }
+        else if(ans === 6){ // OLI
+            location.href = "https://www.surveycake.com/s/N6Qny";
+        }
+        else if(ans === 7){ // OC
+            location.href = "https://www.surveycake.com/s/xK3Ne";
+        }
+        else if(ans === 8){ // OC
+            location.href = "https://www.surveycake.com/s/xK3Ne";
+        }
+        else if(ans === 9){ // OW
+            location.href = "https://www.surveycake.com/s/O6R02";
+        }
+        else if(ans === 10){ // OW
+            location.href = "https://www.surveycake.com/s/O6R02";
+        }
+        else if(ans === 11){ // OS
+            location.href = "https://www.surveycake.com/s/b49Lv";
+        }
+        else if(ans === 12){ // OS
+            location.href = "https://www.surveycake.com/s/b49Lv";
+        }
+        else { // OH
+            location.href = "https://www.surveycake.com/s/0znDL";
         }
     </script>
 </body>
